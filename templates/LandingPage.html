@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,
+wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
+1,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="static/css/Slidestyle.css">
+    <script src="script.js"></script>
+     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/8c264a0d2c.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+    <div class="d-flex justify-content-between align-items-center">
+         <div class="mx-4">
+         <button
+      class="btn "
+      
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#offcanvasWithBothOptions"
+      aria-controls="#offcanvasWithBothOptions">
+      <img src="static/logo.png" style="width: auto; height: 2.6rem;">
+    </button>
+
+    <div
+      class="offcanvas offcanvas-start"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasWithBothOptions"
+      aria-labelledby="offcanvasWithBothOptionsLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+          &#8801
+        </h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Categories</p>
+      </div>
+    </div>
+       </div>
+     <nav class="navbar navbar-expand-lg fs-5">
+      <div class="container-fluid">
+        
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+        <!-- <form class="d-flex" role="search">
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"/>
+          <button class="btn btn-outline-success fw-bold " type="submit">
+            Search
+          </button>
+        </form> -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link active fw-bold" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link fw-bold" href="#" style="color: black"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item mx-2">
+              <a
+                href="#contactus"
+                class="nav-link  fw-bold"
+                style="color: black"
+              >
+                Contact Us
+              </a>
+            </li>
+            <li class="nav-item mx-2 mt-1">
+              <a href="{{ url_for('login') }}" class="btn btn-primary btn-md px-4 gap-3">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+              
+</div>
+    <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="static/logo.png" alt="" width="auto" height="80">
+    <h1 class="display-5 fw-bold text-body-emphasis">Small Enterprises, Global Reach.</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">MarketConnect is a dynamic web application that bridges the gap between local businesses, small enterprises, and eager customers in the digital age. Our platform offers a seamless online marketplace experience, empowering businesses of all sizes to thrive in the world of e-commerce.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Sign Up</button>
+      </div>
+    </div>
+  </div>
+    <!----------reviews------------>
+<section class="testmonials">
+    <h1>What Our Users Says</h1>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="static/per2.jpeg">
+            <div>
+                <p>I stumbled upon this charming coffee shop last week, and it's quickly become my favorite spot! The atmosphere here is cozy and inviting, perfect for catching up with friends or getting some work done. I can't recommend this place enough – it's a true hidden gem in our neighborhood!</p>
+                <h3>Akshit Hamat</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>             
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="static/per3.jpg">
+            <div>
+                <p>I adore this small, family-owned bookstore! Walking in, you can feel the love for literature in every nook and cranny. It's refreshing to see a business so dedicated to fostering a love for reading in the community. I find myself spending hours here, lost in the pages of a good book. Support this local gem – you won't be disappointed!</p>
+                <h3>Suresh Saini</h3>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------call to action------------>
+<section class="cta" id="contactus">
+    <h1>Register your bussiness to connect
+         <br>Anywhere From The World</h1>
+    <a href="{{url_for('contact')}}" class="hero-btn">
+    Contact Us</a>
+</section>
+
+<!----------footer------------>
+
+<!-- <section class="footer">
+    <h4>About Us</h4>
+    <p>We offer different features among all<br>
+        nearby the location</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>
+</section> -->
+<!-- Footer Starts Here -->
+<div class="container-fluid">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li>
+      <li class="nav-item"><a href="{{url_for('contact')}}" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 MarketConnect, Inc</p>
+  </footer>
+</div>
+<!-- Footer Ends Here -->
+    <script>
+        const inputElements = document.querySelectorAll('.input-container input');
+        inputElements.forEach((input) => {
+            input.addEventListener('focus', () => {
+                const label = input.nextElementSibling;
+                label.classList.add('focused');
+            });
+
+            input.addEventListener('blur', () => {
+                const label = input.nextElementSibling;
+                if (!input.value) {
+                    label.classList.remove('focused');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -10,7 +10,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/css/Slidestyle.css">
+    <link rel="stylesheet" href="static/css/Slidestyle.css">
   </head>
   <body>
         <!-- navbar starts here -->
@@ -23,7 +23,7 @@
       data-bs-toggle="offcanvas"
       data-bs-target="#offcanvasWithBothOptions"
       aria-controls="#offcanvasWithBothOptions">
-      <img src="logo.png" style="width: auto; height: 2.6rem;">
+      <img src="static/logo.png" style="width: auto; height: 2.6rem;">
     </button>
 
     <div
@@ -78,7 +78,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="#"
+              <a class="nav-link active fw-bold" aria-current="page" href="{{url_for('landing')}}"
                 >Home</a
               >
             </li>
@@ -144,7 +144,7 @@
 <div class="container-fluid">
   <footer class="py-3 my-4">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="{{url_for('landing')}}" class="nav-link px-2 text-body-secondary">Home</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>

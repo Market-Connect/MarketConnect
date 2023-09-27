@@ -183,7 +183,7 @@ background-image: background-color: #ffffff;*/
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: url(/bg2.jpg);
+  background-image: url(/static/bg2.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
