@@ -30,7 +30,7 @@ nav li {
 }
 
 .category-box {
-    background-color: #43476b;
+    background-color: #c9c0d8;
     border-radius: 3px;
     width: auto;
     height: auto;
@@ -41,12 +41,12 @@ nav li {
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    color: #fff3f3;
+    color: #0a0d10;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .category-box:hover {
-    background-color: #c9c0d8;
-    color: #0a0d10;
+    background-color: #43476b;
+    color: #fafafa;
 }
