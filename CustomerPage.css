@@ -75,7 +75,7 @@ nav li {
     color: #fafafa;
 }
 
-.category-box2:hover {
-    background-color: #43476b;
+.category-box:active {
+    background-color: #4804b6;
     color: #fafafa;
 }
