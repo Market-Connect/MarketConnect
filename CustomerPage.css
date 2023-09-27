@@ -58,7 +58,7 @@ nav li {
     border-radius: 3px;
     width: auto;
     height: auto;
-    display: flexbox;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin: 5px 0px 5px 0px;
