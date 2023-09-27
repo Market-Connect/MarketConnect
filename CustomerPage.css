@@ -18,6 +18,7 @@ body {
 }
 .icon:hover {
     transform: scale(1.1);
+    color:#fcfdfd;
 }
 
 .categoryText {
