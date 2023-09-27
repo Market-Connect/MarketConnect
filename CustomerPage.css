@@ -14,9 +14,9 @@ body {
 .icon {
     display: block;
 }
-
-.p {
-    display: block;
+li {
+    display:flex;
+    flex-direction: column;
 }
 
 header {
