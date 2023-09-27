@@ -34,6 +34,10 @@ nav li {
     margin: 0 10px;
 }
 
+.abc{
+    background-color: #fcfdfd;
+}
+
 .category-box {
     background-color: #c9c0d8;
     border-radius: 3px;
