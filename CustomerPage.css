@@ -36,6 +36,7 @@ nav li {
 
 .abc{
     background-color: #fcfdfd;
+    display: flex;
 }
 
 .category-box {
