@@ -21,7 +21,7 @@ body {
 }
 
 .categoryText:hover {
-    transform: scale(1.1);
+    color:#fafafa;
 }
 
 .categoryText {
