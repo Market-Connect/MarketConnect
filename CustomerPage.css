@@ -27,7 +27,7 @@ nav li {
 }
 .category-box {
     background-color: #f0f0f0;
-    border-radius: 50%; /* Creates rounded corners */
+    border-radius: 3px%; /* Creates rounded corners */
     width: 100px;
     height: 100px;
     display: flex;
