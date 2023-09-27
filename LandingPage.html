@@ -13,7 +13,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <title>Landing Page</title>
-    <link rel="stylesheet" href="slidestyle.css">
+    <link rel="stylesheet" href="/css/Slidestyle.css">
     <script src="script.js"></script>
      <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -50,7 +50,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
       data-bs-toggle="offcanvas"
       data-bs-target="#offcanvasWithBothOptions"
       aria-controls="#offcanvasWithBothOptions">
-      <img src="logo.png" style="width: auto; height: 2.2rem;">
+      <img src="logo.png" style="width: auto; height: 2.6rem;">
     </button>
 
     <div
@@ -76,7 +76,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
       </div>
     </div>
        </div>
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+     <nav class="navbar navbar-expand-lg fs-5">
       <div class="container-fluid">
         
         <button
@@ -92,7 +92,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
           <span class="navbar-toggler-icon"></span>
           
         </button>
-        <form class="d-flex" role="search">
+        <!-- <form class="d-flex" role="search">
           <input
             class="form-control me-2"
             type="search"
@@ -101,45 +101,30 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
           <button class="btn btn-outline-success fw-bold " type="submit">
             Search
           </button>
-        </form>
+        </form> -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link active fw-bold" aria-current="page" href="#"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link fw-bold" href="#" style="color: black"
-                >Orders</a
+                >Services</a
               >
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item mx-2">
               <a
-                class="nav-link dropdown-toggle fw-bold"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                href="#contactus"
+                class="nav-link  fw-bold"
                 style="color: black"
               >
-                Account
+                Contact Us
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
             </li>
-
-            <li class="mt-1">
-              <i
-                class="bi bi-cart3"
-                style="font-size: 1.3rem; font-weight: bold"
-              ></i>
+            <li class="nav-item mx-2 mt-1">
+              <button type="button" class="btn btn-primary btn-md px-4 gap-3">Login</button>
             </li>
           </ul>
         </div>
@@ -147,40 +132,22 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
     </nav>
               
 </div>
-   
-
-    <div class="container">
-        <div class="box sub">
-            <div>
-            <h2>MERCHANTS</h2>
-            <form action="#" method="post">
-                <div class="input-container">
-                    <input type="text" placeholder="Email" required>
-                    <input type="password" placeholder="Password" required>
-                    <button class="bus-btn"type="submit">Login</button>
-                </div>
-            </form>
-            <p>Don't have an account? <a href="#">Sign Up</a></p>
-        </div>
+    <div class="px-4 py-5 my-5 text-center">
+    <img class="d-block mx-auto mb-4" src="logo.png" alt="" width="auto" height="80">
+    <h1 class="display-5 fw-bold text-body-emphasis">Small Enterprises, Global Reach.</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">MarketConnect is a dynamic web application that bridges the gap between local businesses, small enterprises, and eager customers in the digital age. Our platform offers a seamless online marketplace experience, empowering businesses of all sizes to thrive in the world of e-commerce.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Sign Up</button>
+      </div>
     </div>
-        <div class="box">
-           <div>
-                <h2>CUSTOMER</h2>
-            <form action="#" method="post">
-                <input type="text" placeholder="Email" required>
-                <input type="password" placeholder="Password" required>
-                <button type="submit" style="background: white;">Login</button>
-            </form>
-            <p>Don't have an account? <a href="#">Sign Up</a></p>
-           </div>
-        </div>
-    </div>
+  </div>
     <!----------reviews------------>
 <section class="testmonials">
     <h1>What Our Users Says</h1>
     <div class="row">
         <div class="testimonial-col">
-            <img src="E:\Smart-India-Hackathon\per2.jpeg">
+            <img src="per2.jpeg">
             <div>
                 <p>I stumbled upon this charming coffee shop last week, and it's quickly become my favorite spot! The atmosphere here is cozy and inviting, perfect for catching up with friends or getting some work done. I can't recommend this place enough – it's a true hidden gem in our neighborhood!</p>
                 <h3>Akshit Hamat</h3>
@@ -192,7 +159,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
             </div>
         </div>
         <div class="testimonial-col">
-            <img src="E:\Smart-India-Hackathon\per3.jpg">
+            <img src="per3.jpg">
             <div>
                 <p>I adore this small, family-owned bookstore! Walking in, you can feel the love for literature in every nook and cranny. It's refreshing to see a business so dedicated to fostering a love for reading in the community. I find myself spending hours here, lost in the pages of a good book. Support this local gem – you won't be disappointed!</p>
                 <h3>Suresh Saini</h3>
@@ -207,7 +174,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
 </section>
 
 <!----------call to action------------>
-<section class="cta">
+<section class="cta" id="contactus">
     <h1>Register your bussiness to connect
          <br>Anywhere From The World</h1>
     <a href="contact.html" class="hero-btn">
@@ -216,7 +183,7 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
 
 <!----------footer------------>
 
-<section class="footer">
+<!-- <section class="footer">
     <h4>About Us</h4>
     <p>We offer different features among all<br>
         nearby the location</p>
@@ -226,7 +193,21 @@ wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;
             <i class="bi bi-instagram"></i>
             <i class="bi bi-linkedin"></i>
         </div>
-</section>
+</section> -->
+<!-- Footer Starts Here -->
+<div class="container-fluid">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 MarketConnect, Inc</p>
+  </footer>
+</div>
+<!-- Footer Ends Here -->
     <script>
         const inputElements = document.querySelectorAll('.input-container input');
         inputElements.forEach((input) => {
