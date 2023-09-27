@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+nav li {
+    margin: 0 10px;
+}
+.category-box {
+    background-color: #f0f0f0;
+    border-radius: 50%; /* Creates rounded corners */
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+}
