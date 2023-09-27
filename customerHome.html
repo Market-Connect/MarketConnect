@@ -28,119 +28,52 @@
     ></script>
   </head>
   <body>
-    <!-- navbar starts here -->
-<div class="d-flex justify-content-between align-items-center">
-	     <div class="mx-4">
-		 <button
-      class="btn btn-primary"
-	  style="height: 2.5rem; width: 2.5rem;"
-      type="button"
-      data-bs-toggle="offcanvas"
-      data-bs-target="#offcanvasWithBothOptions"
-      aria-controls="#offcanvasWithBothOptions"
-    >
-      <p>&#8801</p>
-    </button>
-
-    <div
-      class="offcanvas offcanvas-start"
-      data-bs-scroll="true"
-      tabindex="-1"
-      id="offcanvasWithBothOptions"
-      aria-labelledby="offcanvasWithBothOptionsLabel"
-    >
-      <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-          &#8801
-        </h5>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"
-        ></button>
-      </div>
-      <div class="offcanvas-body">
-        <p>Categories</p>
-      </div>
-    </div>
-	   </div>
-	 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <!-- collapse goes herer -->
-  
-
-        <!-- end of cillapse -->
-        <a class="navbar-brand ms-5 ps-4 fw-bold" href="#" style="color: black"
-          >Market Connect</a
+    <div class="container">
+      <div
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+      >
+        <a
+          href="/"
+          class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none"
         >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fw-bold" href="#" style="color: black"
-                >Orders</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle fw-bold"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-                style="color: black"
-              >
-                Account
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
+          <svg
+            class="bi me-2"
+            width="40"
+            height="32"
+            role="img"
+            aria-label="Bootstrap"
+          >
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
 
-            <li class="mt-1">
-              <i
-                class="bi bi-cart3"
-                style="font-size: 1.3rem; font-weight: bold"
-              ></i>
-            </li>
-          </ul>
+        <ul
+          class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+        >
+          <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Features</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">Pricing</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
+          <li><a href="#" class="nav-link px-2 text-white">About</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input
+            type="search"
+            class="form-control form-control-dark text-bg-dark"
+            placeholder="Search..."
+            aria-label="Search"
+          />
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">
+            Login
+          </button>
+          <button type="button" class="btn btn-warning">Sign-up</button>
         </div>
       </div>
-    </nav>
-	          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success fw-bold" type="submit">
-              Search
-            </button>
-          </form>
-</div>
-   
+    </div>
 
     <!-- carousel starts here -->
 
@@ -148,7 +81,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00be1cfe-f4ec-4403-b77d-c417e449d0ed/dg8ghvv-6169f45c-2e49-411a-b0c3-201fe7c2bc65.jpg/v1/fit/w_828,h_624,q_70,strp/project___normal_things_by_neuralcanvas_dg8ghvv-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTI4IiwicGF0aCI6IlwvZlwvMDBiZTFjZmUtZjRlYy00NDAzLWI3N2QtYzQxN2U0NDlkMGVkXC9kZzhnaHZ2LTYxNjlmNDVjLTJlNDktNDExYS1iMGMzLTIwMWZlN2MyYmM2NS5qcGciLCJ3aWR0aCI6Ijw9MTIzMiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19._1ARexptG6eLrZKC1Qg0TB659-RiX8MICalFvC6wUK0"
+            src="https://imagesixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/00be1cfe-f4ec-4403-b77d-c417e449d0ed/dg8ghvv-6169f45c-2e49-411a-b0c3-201fe7c2bc65.jpg/v1/fit/w_828,h_624,q_70,strp/project___normal_things_by_neuralcanvas_dg8ghvv-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTI4IiwicGF0aCI6IlwvZlwvMDBiZTFjZmUtZjRlYy00NDAzLWI3N2QtYzQxN2U0NDlkMGVkXC9kZzhnaHZ2LTYxNjlmNDVjLTJlNDktNDExYS1iMGMzLTIwMWZlN2MyYmM2NS5qcGciLCJ3aWR0aCI6Ijw9MTIzMiJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19._1ARexptG6eLrZKC1Qg0TB659-RiX8MICalFvC6wUK0"
             class="d-block w-100"
             alt="..."
             style="height: 60vh"
@@ -185,6 +118,5 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-	
   </body>
 </html>
