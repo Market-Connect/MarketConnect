@@ -25,6 +25,7 @@ body {
 }
 
 .categoryText {
+    font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
     margin: 0;
