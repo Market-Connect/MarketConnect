@@ -28,8 +28,8 @@ nav li {
 .category-box {
     background-color: #f0f0f0;
     border-radius: 3px%; /* Creates rounded corners */
-    width: 100px;
-    height: 100px;
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
