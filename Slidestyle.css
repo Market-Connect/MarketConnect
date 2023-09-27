@@ -1,0 +1,124 @@
+/* colors: {
+ 'text': '#0a0d10',
+ 'background': '#fcfdfd',
+ 'primary': '#43476b',
+ 'secondary': '#c9c0d8',
+ 'accent': '#4804b6',
+}, */
+/* styleslide.css */
+ 
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff3f3;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #43476b, #007BFF);
+
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    background: #f5f5f5;
+    align-items: center;
+    height: 100vh;
+    flex-basis: 31%;
+    justify-content: space-around;
+    background: #fff3f3;
+    border-radius: 3px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.container:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding-top: 100px;
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    flex-basis: 31%;
+    background: #fff;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.box:hover {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+
+.box h2 {
+    text-align:center;
+    font-weight: 600;
+    margin: 0 0 20px;
+    color: #333;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+}
+
+.box button {
+    padding: 12px;
+    width: 70%;
+    padding: 10px;
+    background-color: #43476b;
+    border: none;
+    border-radius: 3px;
+    color: #fff3f3;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.box button:hover {
+    background-color: #c9c0d8;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.box p {
+    margin-top: 15px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+
+.box a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}

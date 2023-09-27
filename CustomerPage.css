@@ -11,6 +11,29 @@ body {
     padding: 0;
 }
 
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.categoryText:hover {
+    color:#fafafa;
+}
+
+.categoryText {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #0a0d10;
+}
+
+
 header {
     background-color: #fcfdfd;
     color: #fcfdfd;
@@ -29,24 +52,30 @@ nav li {
     margin: 0 10px;
 }
 
+
 .category-box {
-    background-color: #43476b;
+    background-color: #f3ecff;
     border-radius: 3px;
     width: auto;
     height: auto;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: 10px 0px 19px 0px;
-    padding: 15px;
+    margin: 5px 0px 5px 0px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
-    color: #fff3f3;
+    color: #0a0d10;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .category-box:hover {
-    background-color: #c9c0d8;
-    color: #0a0d10;
+    background-color: #43476b;
+    color: #fafafa;
+}
+
+.category-box:active {
+    background-color: #4804b6;
+    color: #fafafa;
 }
