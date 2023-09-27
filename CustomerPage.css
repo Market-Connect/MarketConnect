@@ -13,6 +13,7 @@ body {
 
 .icon {
     display: block;
+    align-items: center;
 }
 
 
@@ -34,10 +35,6 @@ nav li {
     margin: 0 10px;
 }
 
-.abc{
-    background-color: #fcfdfd;
-    display: flex;
-}
 
 .category-box {
     background-color: #c9c0d8;
