@@ -6,76 +6,76 @@
 --accent: #4804b6;
 */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .icon:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .categoryText:hover {
-    color:#fafafa;
+  color: black;
 }
 
 .categoryText {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: #0a0d10;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #0a0d10;
 }
 
-
 header {
-    background-color: #fcfdfd;
-    color: #fcfdfd;
-    padding: 10px;
-    text-align: center;
+  background-color: #fcfdfd;
+  color: #fcfdfd;
+  padding: 10px;
+  text-align: center;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }
 
 nav li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
-
 .category-box {
-    background-color: #f3ecff;
-    border-radius: 3px;
-    width: auto;
-    height: auto;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin: 5px 0px 5px 0px;
-    padding: 10px;
-    text-align: center;
-    text-decoration: none;
-    color: #0a0d10;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  min-width: 7rem;
+  background-color: white;
+  border-radius: 3px;
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px 0px 5px 0px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: grey;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* border: 2px solid black; */
 }
 
 .category-box:hover {
-    background-color: #43476b;
-    color: #fafafa;
+  background-color: #a5def0;
+  background-image: linear-gradient(270deg, #a5def0 0%, #eeeef8 100%);
 }
 
 .category-box:active {
-    background-color: #4804b6;
-    color: #fafafa;
+  background-color: #4804b6;
+  color: #fafafa;
 }
