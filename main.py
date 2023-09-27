@@ -17,5 +17,10 @@ def contact():
 	return render_template('contactus.html')
 
 
+@app.route('/customer', methods=["GET", "POST"])
+def customer():
+	return render_template('customerHome.html')
+
+
 if __name__ == "__main__":
 	app.run(debug=True)

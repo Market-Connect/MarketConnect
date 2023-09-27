@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="Add to Cartport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="CustomerPage.css">
+  <link rel="stylesheet" href="static/CustomerPage.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
 
@@ -33,7 +33,7 @@
       data-bs-target="#offcanvasWithBothOptions"
       aria-controls="#offcanvasWithBothOptions">
 
-      <img src="assets/logo.png" style="width: auto; height: 3.2rem;">
+      <img src="static/assets/logo.png" style="width: auto; height: 3.2rem;">
     </button>
 
     <div
@@ -80,7 +80,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="{{url_for('landing')}}">Home</a>
             </li>
             <li class="nav-item">   
                <a class="nav-link active fw-bold" aria-current="page" href="#">Deals</a>
@@ -123,31 +123,31 @@
   <header>
     <nav>
       <li ><a class="category-box" href="#category1">
-          <p class="categoryText"><img class="icon" src="assets/grocery.png" width="auto" height="45px">Food</p>
+          <p class="categoryText"><img class="icon" src="static/assets/grocery.png" width="auto" height="45px">Food</p>
         </a></li>
       <li ><a class="category-box" href="#category2">
-          <p class="categoryText"><img class="icon" src="assets/t-shirt.png" width="auto" height="45px">Clothing</p>
+          <p class="categoryText"><img class="icon" src="static/assets/t-shirt.png" width="auto" height="45px">Clothing</p>
         </a></li>
       <li ><a class="category-box" href="#category3">
-          <p class="categoryText"><img class="icon" src="assets/sewing-machine.png" width="auto" height="45px"> Textile</p>
+          <p class="categoryText"><img class="icon" src="static/assets/sewing-machine.png" width="auto" height="45px"> Textile</p>
         </a></li>
         <li ><a class="category-box" href="#category7">
-          <p class="categoryText"><img class="icon" src="assets/electrical-appliances.png" width="auto" height="45px">Appliances</p>
+          <p class="categoryText"><img class="icon" src="static/assets/electrical-appliances.png" width="auto" height="45px">Appliances</p>
         </a></li>
       <li ><a class="category-box" href="#category5">
-          <p class="categoryText"><img class="icon" src="assets/agenda.png" width="auto" height="45px">Book Store</p>
+          <p class="categoryText"><img class="icon" src="static/assets/agenda.png" width="auto" height="45px">Book Store</p>
         </a></li>
       <li ><a class="category-box" href="#category6">
-          <p class="categoryText"><img class="icon" src="assets/pharmacy.png" width="auto" height="45px">Pharmacy</p>
+          <p class="categoryText"><img class="icon" src="static/assets/pharmacy.png" width="auto" height="45px">Pharmacy</p>
         </a></li>
       <li ><a class="category-box" href="#category7">
-          <p class="categoryText"><img class="icon" src="assets/jewelry.png" width="auto" height="45px">Jewellery</p>
+          <p class="categoryText"><img class="icon" src="static/assets/jewelry.png" width="auto" height="45px">Jewellery</p>
         </a></li>
         <li ><a class="category-box" href="#category7">
-          <p class="categoryText"><img class="icon" src="assets/giftbox.png" width="auto" height="45px">Toys & Gifts</p>
+          <p class="categoryText"><img class="icon" src="static/assets/giftbox.png" width="auto" height="45px">Toys & Gifts</p>
         </a></li>
         <li ><a class="category-box" href="#category7">
-          <p class="categoryText"><img class="icon" src="assets/makeup.png" width="auto" height="45px">Beauty</p>
+          <p class="categoryText"><img class="icon" src="static/assets/makeup.png" width="auto" height="45px">Beauty</p>
         </a></li>
     </nav>
   </header>
@@ -158,16 +158,16 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
-          src="/Assets/POSTER2.jpg"
+          src="static/Assets/POSTER2.jpg"
           class="d-block w-100" alt="..." style="height: 65vh; object-fit: cover;" />
       </div>
       <div class="carousel-item">
         <img
-          src="/Assets/POSTER1.jpg"
+          src="static/Assets/POSTER1.jpg"
           class="d-block w-100" alt="..." style="height: 65vh; object-fit:cover;" />
       </div>
       <div class="carousel-item">
-        <img src="/Assets/Carousel3.jpg" class="d-block w-100" alt="..." 
+        <img src="static/Assets/Carousel3.jpg" class="d-block w-100" alt="..." 
         style="height: 65vh; object-fit:cover;"/>
       </div>
     </div>
@@ -189,7 +189,7 @@
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-             <img src="Assets/jeans.jpg" alt="">
+             <img src="static/Assets/jeans.jpg" alt="">
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                   content. This content is a little bit longer.</p>
@@ -205,7 +205,7 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/pizza.jpg" width="100%" height="100%">
+              <img src="static/assets/pizza.jpg" width="100%" height="100%">
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                   content. This content is a little bit longer.</p>
@@ -221,56 +221,7 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="assets/paneer.jpg" width="100%" height="100%">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
-                  </div>
-                  <small class="text-body-secondary">1299 Rs.</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="assets/shoes.jpg" width="100%" height="100%">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
-                  </div>
-                  <small class="text-body-secondary">1299 Rs.</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="Assets/smartphone.jpg" alt="">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
-                  </div>
-                  <small class="text-body-secondary">1299 Rs.</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="Assets/books.jpg" alt="">
+              <img src="static/assets/paneer.jpg" width="100%" height="100%">
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                   content. This content is a little bit longer.</p>
@@ -287,7 +238,7 @@
 
           <div class="col">
             <div class="card shadow-sm">
-              <img src="Assets/juice.jpg" alt="">
+              <img src="static/assets/shoes.jpg" width="100%" height="100%">
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                   content. This content is a little bit longer.</p>
@@ -303,7 +254,7 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-              <img src="Assets/pizza.jpg" alt="">
+              <img src="static/Assets/smartphone.jpg" alt="">
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                   content. This content is a little bit longer.</p>
@@ -319,7 +270,56 @@
           </div>
           <div class="col">
             <div class="card shadow-sm">
-             <img src="Assets/jacket.jpg" alt="">
+              <img src="static/Assets/books.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
+                  </div>
+                  <small class="text-body-secondary">1299 Rs.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="static/Assets/juice.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
+                  </div>
+                  <small class="text-body-secondary">1299 Rs.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="static/Assets/pizza.jpg" alt="">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Add to Cart</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Buy Now</button>
+                  </div>
+                  <small class="text-body-secondary">1299 Rs.</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+             <img src="static/Assets/jacket.jpg" alt="">
               <div class="card-body">
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
                   content. This content is a little bit longer.</p>
