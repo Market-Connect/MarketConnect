@@ -116,8 +116,6 @@ background-image: background-color: #ffffff;*/
    background-color: #a5def0;
 background-image: linear-gradient(270deg, #a5def0 0%, #eeeef8 100%);
 
-
-
 }
 
 .box p {
@@ -156,7 +154,9 @@ background-image: linear-gradient(270deg, #a5def0 0%, #eeeef8 100%);
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background-color: #a5def0;
+background-image: linear-gradient(270deg, #a5def0 0%, #eeeef8 100%);
+
     padding: 25px;
     cursor: pointer;
     display: flex;
@@ -192,8 +192,7 @@ background-image: linear-gradient(270deg, #a5def0 0%, #eeeef8 100%);
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),
-    rgba(0,0,0,0.7)),url(images/lpu.jpg);
+    background-image: url(bg2.jpg) ;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -205,10 +204,41 @@ background-image: linear-gradient(270deg, #a5def0 0%, #eeeef8 100%);
     margin-bottom: 40px;
     padding: 0;
 }
+.cta a{
+    color: black;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    counter-reset: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: #ffffff;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.hero-btn:hover{
+    border: 1px;
+    background: transparent;
+    color: white;
+    transition: 1s;
+    transform: scale(1.05);
+      padding: 15px;
+    width: 10%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+}
 
 @media(max-width: 700px){
     .cta h1{
         font-size: 30px;
+        family-family: poppins;
     }
 }
 
@@ -218,6 +248,10 @@ background-image: linear-gradient(270deg, #a5def0 0%, #eeeef8 100%);
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    color: black;
+    margin-bottom: 40px;
+    padding: 0;
+    text-indent: 2px;
 }
 
 .footer h4{
