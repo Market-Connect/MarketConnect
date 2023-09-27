@@ -10,24 +10,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
 }
+
 nav {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
 }
+
 nav li {
     margin: 0 10px;
 }
+
 .category-box {
-    background-color: #f0f0f0;
-    border-radius: 3px; 
+    background-color: #434743;
+    border-radius: 3px;
     width: auto;
     height: auto;
     display: flex;
@@ -37,5 +41,11 @@ nav li {
     padding: 15px;
     text-align: center;
     text-decoration: none;
-    color: #333;
+    color: #fff3f3;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category-box:hover {
+    background-color: #c9c0d8;
 }
