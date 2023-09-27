@@ -32,6 +32,7 @@
       data-bs-toggle="offcanvas"
       data-bs-target="#offcanvasWithBothOptions"
       aria-controls="#offcanvasWithBothOptions">
+
       <img src="assets/logo.png" style="width: auto; height: 2.2rem;">
     </button>
 
@@ -81,8 +82,7 @@
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+            <li class="nav-item">    <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link fw-bold" href="#" style="color: black">Orders</a>
@@ -95,6 +95,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
+
                 <li>
                   <hr class="dropdown-divider" />
                 </li>
@@ -111,6 +112,7 @@
         </div>
       </div>
     </nav>
+
 
   </div>
 
@@ -333,6 +335,27 @@
         </div>
       </div>
     </div>
+    <script>
+      const logo = document.getElementById("logo");
+      const searchbar = document.getElementById("searchbar");
+      const btn = document.getElementById("button");
+      
+      btn.addEventListener("click", function display_none() {
+        console.log( logo.style.display);
+        console.log(searchbar.style.display);
+        if (logo.style.display === "none") {
+          logo.style.display = "inline-block";
+          searchbar.style.display = "inline-block";
+          
+        } else {
+          logo.style.display = "none";
+          searchbar.style.display = "none";
+        }
+      });
+      </script>
+  </body>
+</html>
+
   </main>
 
 </body>
