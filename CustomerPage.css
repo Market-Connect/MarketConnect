@@ -20,7 +20,7 @@ header {
 
 nav {
     display: flex;
-    justify-content: right;
+    justify-content: left;
     list-style: none;
     padding: 0;
 }
