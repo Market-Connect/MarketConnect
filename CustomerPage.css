@@ -11,6 +11,10 @@ body {
     padding: 0;
 }
 
+.img {
+    display: block;
+}
+
 header {
     background-color: #fcfdfd;
     color: #fcfdfd;
