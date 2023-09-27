@@ -14,10 +14,7 @@ body {
 .icon {
     display: block;
 }
-li {
-    display:flex;
-    flex-direction: column;
-}
+
 
 header {
     background-color: #fcfdfd;
