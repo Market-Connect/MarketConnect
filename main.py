@@ -45,8 +45,8 @@ def signupMerchant():
 def contact():
     return render_template('contactus.html')
 
-@app.route('/home)
-def home():
+@app.route('/Home)
+def Home():
     return render_template('LandingPage.html')
 
 @app.route('/customer', methods=["GET", "POST"])
