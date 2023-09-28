@@ -12,7 +12,6 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(/static/Assets/loginbg.jpeg);
-  opacity: 0.6;
   /*    background: linear-gradient(90deg, #43476b, #007BFF);*/
 }
 
