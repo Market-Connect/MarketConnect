@@ -1,6 +1,17 @@
 from flask import Flask, render_template, request, redirect, url_for
+import json, random
 
 app = Flask(__name__)
+
+
+def getLinks():
+    links = []
+    with open('static/imageData.json') as f:  
+        data = json.load(f)
+        links = data 
+    return links
+
+
 
 @app.route('/')
 def landing():
@@ -19,7 +30,8 @@ def contact():
 
 @app.route('/customer', methods=["GET", "POST"])
 def customer():
-	return render_template('customerHome.html')
+	links = getLinks()
+	return render_template('customerHome.html', links = links)
 
 
 if __name__ == "__main__":
