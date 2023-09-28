@@ -70,20 +70,9 @@ body {
   line-height: 1.5;
 }
 
-.signupCustomer:link {
+.signupCustomer:link, .signupCustomer:visited, .signupCustomer:active, .signupCustomer:hover {
   color: white;
-}
-
-.signupCustomer:visited {
-  color: white;
-}
-
-.signupCustomer:hover {
-  color: white;
-}
-
-.signupCustomer:active {
-  color: white;
+  text-decoration: none;
 }
 
 .box input[type="text"],
