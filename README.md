@@ -2,7 +2,7 @@
 
 ![Smart India Hackathon Logo](https://github.com/Hershit-shukla/Smart-India-Hackathon/blob/main/static/Assets/sihlogo.png)
 
-Welcome to **Market Connect**, the official submission of Team [Your Team Name] from Lovely Professional University (LPU) for the Smart India Hackathon. 
+Welcome to **Market Connect**, the official submission of Team Binary Triggers from Lovely Professional University (LPU) for the Smart India Hackathon. 
 
 ## About Market Connect
 
