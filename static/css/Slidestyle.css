@@ -70,6 +70,22 @@ body {
   line-height: 1.5;
 }
 
+.signupCustomer:link {
+  color: white;
+}
+
+.signupCustomer:visited {
+  color: white;
+}
+
+.signupCustomer:hover {
+  color: white;
+}
+
+.signupCustomer:active {
+  color: white;
+}
+
 .box input[type="text"],
 .box input[type="password"] {
   width: 350px;
