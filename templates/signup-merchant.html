@@ -56,13 +56,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item mx-2">
-              <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+              <a class="nav-link active fw-bold" aria-current="page" href="{{ url_for('home')}}">Home</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link fw-bold" href="#" style="color: black">Services</a>
             </li>
             <li class="nav-item mx-2">
-              <a href="#contactus" class="nav-link  fw-bold" style="color: black">
+              <a href="{{ url_for('contact')}}" class="nav-link  fw-bold" style="color: black">
                 Contact Us
               </a>
             </li>
