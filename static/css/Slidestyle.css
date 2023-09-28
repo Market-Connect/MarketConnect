@@ -18,6 +18,7 @@ body {
 .container {
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   background: #ffffff;
   align-items: center;
   height: auto;
@@ -70,7 +71,10 @@ body {
   line-height: 1.5;
 }
 
-.signupCustomer:link, .signupCustomer:visited, .signupCustomer:active, .signupCustomer:hover {
+.signupCustomer:link,
+.signupCustomer:visited,
+.signupCustomer:active,
+.signupCustomer:hover {
   color: white;
   text-decoration: none;
 }
