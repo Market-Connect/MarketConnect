@@ -37,6 +37,10 @@ def login():
 def signupCustomer():
     return render_template('signup-Customer.html')
 
+@app.route('/signupMerchant')
+def signupMerchant():
+    return render_template('signup-merchant.html')
+
 @app.route('/contact')
 def contact():
     return render_template('contactus.html')
