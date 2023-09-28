@@ -1,5 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for
 import json, random
+import smtplib
+
 
 app = Flask(__name__)
 
@@ -24,6 +26,27 @@ def getLinks():
     return items
 
 
+#email SMTP
+def sendMail(email):
+    sender_email = "senders_address"
+    reciever_email = email
+    password = "password"
+    message = "Hi, Thanks for reaching out!"
+    
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+
+    server.starttls()
+
+    server.login(sender_email, password)
+    print("sucess")
+
+    server.sendmail(sender_email, reciever_email, message)
+    print("enail sent")
+
+
+
+
+
 @app.route('/')
 def landing():
     return render_template('LandingPage.html')
@@ -37,12 +60,15 @@ def login():
 def signupCustomer():
     return render_template('signup-Customer.html')
 
-@app.route('/contact')
+@app.route('/contact', methods=["GET", "POST"] )
 def contact():
+    if request.method == 'POST':
+        x = request.form['email_input']
+        sendMail(x)
     return render_template('contactus.html')
 
 
-@app.route('/customer', methods=["GET", "POST"])
+@app.route('/customer')
 def customer():
     links = getLinks()
     return render_template('customerHome.html', links = links)
@@ -50,3 +76,4 @@ def customer():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
