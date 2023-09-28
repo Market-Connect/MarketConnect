@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>SignUp-Merchant</title>
+  <link rel="stylesheet" type="text/css" href="signup-Customer.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="Add to Cartport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CustomerPage.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <title>Market Connect </title>
+
+  <script src="https://kit.fontawesome.com/8c264a0d2c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="d-flex justify-content-between align-items-center">
+    <div class="mx-4">
+      <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="#offcanvasWithBothOptions">
+        <img src="static/logo.png" style="width: auto; height: 3.7rem;">
+      </button>
+
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">
+            &#8801
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Categories</p>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg fs-5">
+      <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-2">
+              <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link fw-bold" href="#" style="color: black">Services</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a href="#contactus" class="nav-link  fw-bold" style="color: black">
+                Contact Us
+              </a>
+            </li>
+            <li class="nav-item mx-2 mt-1">
+              <a href="{{ url_for('login') }}" class="btn btn-primary btn-md px-4 gap-3">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+  </div>
+
+  <!-- navbar ends here -->
+
+  <div class="wrapper">
+    <div class="header">
+      <ul>
+        <li class="active form_1_progessbar">
+          <div>
+            <p>1</p>
+          </div>
+        </li>
+        <li class="form_2_progessbar">
+          <div>
+            <p>2</p>
+          </div>
+        </li>
+        <li class="form_3_progessbar">
+          <div>
+            <p>3</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="form_wrap">
+      <div class="form_1 data_info">
+        <h2>Signup Info</h2>
+        <form>
+          <div class="form_container">
+            <div class="input_wrap">
+              <label for="email">Email Address</label>
+              <input type="text" name="Email Address" class="input2" id="email">
+            </div>
+            <div class="input_wrap">
+              <label for="password">Password</label>
+              <input type="password" name="password" class="input2" id="password">
+            </div>
+            <div class="input_wrap">
+              <label for="confirm_password">Confirm Password</label>
+              <input type="password" name="confirm password" class="input2" id="confirm_password">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="form_2 data_info" style="display: none;">
+        <h2>Personal Info</h2>
+        <form>
+          <div class="form_container">
+            <div class="input_wrap">
+              <label for="user_name">User Name</label>
+              <input type="text" name="User Name" class="input2" id="user_name">
+            </div>
+            <div class="input_wrap">
+              <label for="first_name">First Name</label>
+              <input type="text" name="First Name" class="input2" id="first_name">
+            </div>
+            <div class="input_wrap">
+              <label for="last_name">Last Name</label>
+              <input type="text" name="Last Name" class="input2" id="last_name">
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="form_3 data_info" style="display: none;">
+        <h2>Residential Info</h2>
+        <form>
+          <div class="form_container">
+            <div class="input_wrap">
+              <label for="company">Phone no.</label>
+              <input type="text" name="mobile" class="input2" id="mobile">
+            </div>
+            <div class="input_wrap">
+              <label for="experience">Landmark</label>
+              <input type="text" name="Landmark" class="input2" id="Landmark">
+            </div>
+            <div class="input_wrap">
+              <label for="designation">City</label>
+
+              <input type="text" name="City" class="input2" id="City">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="btns_wrap">
+      <div class="common_btns form_1_btns">
+        <button type="button" class="btn_next">Next <span class="icon"><ion-icon
+              name="arrow-forward-sharp"></ion-icon></span></button>
+      </div>
+      <div class="common_btns form_2_btns" style="display: none;">
+        <button type="button" class="btn_back"><span class="icon"><ion-icon
+              name="arrow-back-sharp"></ion-icon></span>Back</button>
+        <button type="button" class="btn_next">Next <span class="icon"><ion-icon
+              name="arrow-forward-sharp"></ion-icon></span></button>
+      </div>
+      <div class="common_btns form_3_btns" style="display: none;">
+        <button type="button" class="btn_back"><span class="icon"><ion-icon
+              name="arrow-back-sharp"></ion-icon></span>Back</button>
+        <button type="button" class="btn_done">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal_wrapper">
+    <div class="shadow"></div>
+    <div class="success_wrap">
+      <div class="up"><span class="modal_icon"><ion-icon name="checkmark-sharp"></ion-icon></span>
+        <p>You have successfully registered.<br>Your Kyc is still pending.</p></div>
+      <div class="common_btnsdkyc">
+        <div>
+          <button type="button"  class="common_btnskyc1">Proceed Now</button>
+        </div>
+        <div>
+          <button type="button" class="common_btnskyc2">I will do it later</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script type="text/javascript" src="signup-Customer.js"></script>
+
+  <!----------footer------------>
+
+<!-- <section class="footer">
+    <h4>About Us</h4>
+    <p>We offer different features among all<br>
+        nearby the location</p>
+        <div class="icons">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-linkedin"></i>
+        </div>-
+</section> -->
+<!-- Footer Starts Here -->
+<div class="container-fluid">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Services</a></li>
+      <li class="nav-item"><a href="{{url_for('contact')}}" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    </ul>
+    <p class="text-center text-body-secondary">© 2023 MarketConnect, Inc</p>
+  </footer>
+</div>
+<!-- Footer Ends Here -->
+</body>
+
+</html>
