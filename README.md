@@ -1,7 +1,7 @@
 # Market Connect - Smart India Hackathon
 
-![Smart India Hackathon Logo](smart_india_hackathon_logo.png)
-![LPU Logo](lpu_logo.png)
+![Smart India Hackathon Logo](https://github.com/Hershit-shukla/Smart-India-Hackathon/blob/main/static/Assets/sihlogo.png)
+![LPU Logo](https://github.com/Hershit-shukla/Smart-India-Hackathon/blob/main/static/Assets/lpulogo.png)
 
 Welcome to **Market Connect**, the official submission of Team [Your Team Name] from Lovely Professional University (LPU) for the Smart India Hackathon. 
 
