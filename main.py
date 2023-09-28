@@ -33,6 +33,9 @@ def landing():
 def login():
     return render_template('loginPage.html')
 
+@app.route('/signupCustomer')
+def signupCustomer():
+    return render_template('signup-Customer.html')
 
 @app.route('/contact')
 def contact():
