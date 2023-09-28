@@ -67,6 +67,9 @@ def contact():
         sendMail(x)
     return render_template('contactus.html')
 
+@app.route('/Home')
+def Home():
+    return render_template('LandingPage.html')
 
 @app.route('/customer')
 def customer():
