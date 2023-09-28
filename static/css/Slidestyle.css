@@ -9,9 +9,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #ffffff;
   margin: 0;
   padding: 0;
+  background-image: url(/static/Assets/loginbg.jpeg);
   /*    background: linear-gradient(90deg, #43476b, #007BFF);*/
 }
 
